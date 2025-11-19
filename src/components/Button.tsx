@@ -24,7 +24,7 @@ export default function Button({ color }: { color: string }) {
 
         const dispatch = useDispatch(); // get dispatch function
     console.log("color:", color)
-    console.log(dispatch(incrementbyColor({ color })))
+    // console.log(dispatch(incrementbyColor({ color })))
 
     return (
         <>
