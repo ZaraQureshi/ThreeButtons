@@ -7,7 +7,7 @@ export default function Component2() {
 
     return (
         <>
-            <div className="flex flex-rows justify-evenly border-2 border-purple-700">
+            <div className="flex flex-rows justify-evenly border-2 border-purple-700 h-50">
                 {color.map((col) => <Bar color={col} height={count[col]} />)}
 
 

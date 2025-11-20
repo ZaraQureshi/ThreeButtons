@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="w-full">
         <Component1/>
         <Component2/>
         <Component3/>

@@ -17,7 +17,7 @@ export default function Button({ color }: { color: string }) {
         }
     }
    
-    function ClickButton(){
+    function ClickButton():any{
         dispatch(incrementbyColor({ color }))
         
     }
@@ -28,7 +28,7 @@ export default function Button({ color }: { color: string }) {
 
     return (
         <>
-            <button className={`border ${dynamicColor(color)} `}  onClick={ClickButton}>Button</button>
+            <button className={`border ${dynamicColor(color)} `}  onClick={ClickButton}>{color}</button>
         </>
     )
 }
