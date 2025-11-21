@@ -29,6 +29,8 @@ export default function Button({ color }: { color: string }) {
     return (
         <>
             <button className={`border ${dynamicColor(color)} `}  onClick={ClickButton}>{color}</button>
+           
         </>
     )
 }
+
