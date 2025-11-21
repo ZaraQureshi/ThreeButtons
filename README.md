@@ -1,6 +1,6 @@
 This project was built to understand how data can be passed among different components. To avoid the complexity of prop drilling, Redux toolkit was used to manage the state and share the data among several components.
 The below image was the idea to be implemented
-<img src="idea.jpeg"/>
+<img src="[idea.jpeg](https://github.com/ZaraQureshi/ThreeButtons/edit/master/public/idea.jpeg)"/>
 
 The three different colored boxes are three different components (brown, purple, pink)
 The first component has a scorecard progress bar
